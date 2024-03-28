@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--requered meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    
+    <!--Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/font/bootstrap-icons.min.css"/>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm 
+    fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><i class="bi bi-book"></i>Skariga Bookstore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kategori">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bestseller">BestSeller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#login">Login</a>
+                </li>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Cari Buku" aria-label="search" />
+                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <!--Akhir navbar-->
+
+       <!--Jumbotron-->
+       <section class="jumbotron text-center">
+        <img src="img/img.skariga.jpeg" alt="Skariga Bookstore" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Skariga Bookstore</h1>
+        <p class="lead">Belanja Buku Mudah dan Aman</p>
+       </section>
+    <!--Akhir Jumbotron--> 
+    
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css"/>
+    <title>Bookstore</title>
+</head>
+<body id="home">
+
+    <!--Kategori-->
+    <section id="kategori">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Kategori Buku</h2>
+                </div>
+            </div>
+            <section class="row justify-content-center +fs-5 text-center">
+                <div class="card" style="width: 18rem">
+                    <img src="img/kateogri1.jpeg" class="card-img-top" alt="kategori1" />
+                    <div class="card-body">
+                        <div class="card-header">film</div>
+                    </div>
+                </div>
+            </section>
+
+    <!--BestSeller-->    
+    <section id="bestseller">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>BestSeller Book</h2>
+                </div>
+            </div>
+            <section class="row justify-content-center">
+                <div class="card" style="width: 18rem">
+                    <img src="img/bestseller1.jpeg" class="card-img-top" alt="bestseller1" >
+                    <div class="card-body">
+                        <h5 class="card-title">sebelum iblis menjemput</h5>
+                        <p class="card-text">Rp.70.000</p>
+                        <p class="text-decoration-line-through text-danger">Rp.90.000</p>
+                    </div>
+                    <ul class="list-group-flush">
+                        <li class="list-group-item">Kategori: Film</li>
+                        <li class="list-group-item">Penerbit: bpk.</li>
+                        <li class="list-group-item">Penulis: bpk.</li>
+                    </ul>
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary"><i class="bi bi-card4"></i>Beli</a>
+                    </div>   
+                </div>
+            </section>
+
+    <!--login-->
+    <section id="login">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Login</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" aria-describedby="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!--Akhir login--> 
+    
+    <!--Footer-->
+    <footer class="bg-primary text-white text-center pb-5">
+        <p>Created with <i class="bi bi-balloon-heart-fill text-danger"></i>
+         by<a href="https://instagram.com/adrian_adri4" class="text-white fw-bold">Achmad zaenni A</a></p>
+    </footer>
+    <!--Akhir Footer-->
+        </div>
+    </section>    
+        </div>
+    </section>
+</body>
+</html>
